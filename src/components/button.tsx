@@ -6,7 +6,7 @@ type ButtonProps = {
   variant?: keyof typeof colors;
 } & ComponentPropsWithoutRef<'button'>;
 
-const base = '210';
+const base = '200';
 const hover = '300';
 const active = '400';
 const border = '700';
